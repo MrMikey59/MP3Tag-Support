@@ -30,12 +30,32 @@
 - https://github.com/jerelhenderson/mp3tag_actions 
 - https://github.com/tknr/mp3tag_data_sources
 - https://github.com/Mp3tag/Tidier-Audio-Tag-Naming-Convention/blob/master/Releases/TAT%20Naming%20Convention%201.0.mta
+- https://github.com/jonaaa20/itunes-web-sources
 
 ## MTA: MP3Tag Action File
 
+#### Adding New Sources
+1.	Download or Create a Action File
+2.	Copy the .mta file to the Actions Folder
 ## MTE: MP3Tag Export File
 
+#### Adding New Exports
+1.	Download or Create an Export File
+2.	Copy the .mte file to the Export Folder
+
 ## SRC: MP3Tag Source File
+
+#### Adding New Sources
+1.	Download or Create a Source File
+2.	Copy the .src file to the Sources Folder
+
+#### Use a Tag/Cover Source
+1. Click on `Tag Sources`
+2. Move you mouse to the selected `Source`
+3. When prompted, add the `Artist name` and the `Album name` for search
+4. On the Search Results, choose one on the search results.
+5. The tag information will be pulled into a new dialog box with the new data on the left side and your current datat on the right side. 
+6. Move the files to link with correct line, then click OK to update your files. 
 
 ## Tags
 | MP3Tag Element|Description |  
