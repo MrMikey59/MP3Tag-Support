@@ -64,7 +64,7 @@ You can filter your view within the list using a filter.  Filters use the same f
 ## MTA: MP3Tag Action File
 Mp3tag provides a variety of actions, which can be applied to filenames and tags. The actions are grouped together into named sets (action groups), which can be applied independently via Actions `Alt+6`. If you do not want to create a reusable action group for applying one single action, the `Actions (Quick)` toolbar button or keyboard shortcut `Shift+Alt+6` can be used.  
 You can create, edit, duplicate, and delete action groups using the buttons on the right or the context menu. The button Utils allows for saving the current selection state to a file using the `Save selection...` menu item. These are then listed in the menu and can be later restored by clicking on the configuration name. The Save menu item saves the current selection state directly (this is only necessary if you choose to not exit the dialog via the OK button).    
-The Action Menu ![Action Menu](https://github.com/MrMikey59/MP3Tag-Support/blob/40c8ed05ad26a8ead1cdabd5c139514457ba5f8d/Action Menu.JPG)
+The Action Menu ![Action Menu](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Action%20Menu.JPG)
 #### Adding New Actions
 1.	Download or Create a Action File
 2.	Copy the .mta file to the Actions Folder
