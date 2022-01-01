@@ -1,6 +1,19 @@
 # This is my MP3Tag Support Project
 
-#### Find the Data
+Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments of MP3- and Ogg Vorbis files. It can rename files based on the tag information, replace characters or words from tags and filenames, import/export tag information, create playlists and more. The program supports online freedb database lookups for selected files, allowing you to automatically gather proper tag information. 
+
+**Note**: The *.mta, *.mte & *.src files are plain text files with a certain syntax, just like other programming formats.
+
+### Media File Tags (File Extensions) Supported:
+- ID3v1 (MP3)
+- ID3v2 (MP3)
+- APEv1 (APE)
+- APEv2 (APE )
+- Ogg Vorbis Comments (OGG, FLAC)
+- iTunes Metadata (MP4, M4A, M4B)
+- WMA (WMA)
+
+### Find the Data
 | Contents | Folder |   
 | --- | --- |  
 | Installed Program | `C:\Program Files (x86)\Mp3tag` <BR> `%mp3tag%` [Portable install] |  
@@ -11,19 +24,20 @@
 
 **Note**: %appdata% = “C:\Users\ %username% \AppData\Roaming\”
 
-**Note 2**: Installtion also creates these folder wih included Actions, Exports & Sources that can include your shared files:
+**Note 2**: Installtion also creates these folder wih included Actions, Exports & Sources that can include your shared files (**Warning: These could go away on the next update!**):
 - `C:\Program Files (x86)\Mp3tag\data\actions`
 - `C:\Program Files (x86)\Mp3tag\export`
 - `C:\Program Files (x86)\Mp3tag\data\sources`
 
-#### Resources:  
+### Resources:  
+- [MP3Tag Source](http://www.mp3tag.de/en/), it's support [Community](https://community.mp3tag.de/) and [Change Log](https://www.mp3tag.de/en/changelog.html). And when all else fails get [support](mailto:support@mp3tag.de) by email!
 -	To find more web [sources scripts](https://community.mp3tag.de/c/development/web-sources-scripts/12) for Mp3tag.  
 -	To learn more about how to [use web sources scripts](https://github.com/jonaaa20/itunes-web-sources) in Mp3tag.   
 -	To learn more about the [syntax of these web sources scripts](https://help.mp3tag.de/main_online.html) for Mp3tag.  
 -	To learn more about the [tag fields in Mp3tag](https://help.mp3tag.de/main_tags.html).  
 -	To learn more about the [XID tag field](https://community.mp3tag.de/t/support-for-itunesalbumadvisory-field/51715/10).  
 
-#### Inspirations
+### Inspirations
 - https://github.com/rarestMeow/mp3tag_actions 
 - https://github.com/seanap/Audible.com-Search-by-Album
 - https://github.com/vibe-x/mp3tag 
@@ -43,6 +57,45 @@
 1.	Download or Create an Export File
 2.	Copy the .mte file to the Export Folder
 
+#### Some Simple Example Exports
+
+To use these, copy text into an empty test file and rename to an `<ExportFileName>.mte` file when saved. Now just move it to the Export folder.
+
+###### List All Albums
+```mte
+$filename(ListAlbums.txt)
+$loop(%artist%-%album%,1)%artist%-%album%
+$loopend()
+```
+
+###### List All FLAC Albums
+```mte
+$filename(mp3.txt)$loop(%artist%-%album%,1)$if($eql($strstr(%_extension%,flac),0),,
+%artist%-%album%
+)$loopend()
+```
+
+###### List All M4A (MP4) Albums
+```mte
+$filename(mp3.txt)$loop(%artist%-%album%,1)$if($eql($strstr(%_extension%,m4a),0),,
+%artist%-%album%
+)$loopend()
+```
+
+###### List All MP3 Albums
+```mte
+$filename(mp3.txt)$loop(%artist%-%album%,1)$if($eql($strstr(%_extension%,mp3),0),,
+%artist%-%album%
+)$loopend()
+```
+
+###### List All WMA Albums
+```mte
+$filename(mp3.txt)$loop(%artist%-%album%,1)$if($eql($strstr(%_extension%,wma),0),,
+%artist%-%album%
+)$loopend()
+```
+
 ## SRC: MP3Tag Source File
 
 #### Adding New Sources
@@ -60,17 +113,23 @@
 ## Tags
 | MP3Tag Element|Description |  
 | --- | --- |  
-| %_directory%|Directory |  
-| %_file_create_datetime_raw%| |  
-| %_parent_directory%|Parent Directory  |  
-| %albumartist%|Album Artist |  
-| %comment%|Comment |  
-| %date%|Date |  
-| %discnumber%|Disc Number  |  
-| %dummy%| |  
-| %label%|Producer Label |  
+| %_directory%| Directory |  
+| %_extension% | File Extension |
+| %_file_create_datetime_raw%|  |  
+| %_filename% | Filename without the extension |  
+| %_parent_directory%| Parent Directory  |  
+| %_total% | Number of tracks from xx/xx track-number field  |  
+| %album%| Album Title |  
+| %albumartist%| Album Artist |  
+| %artist% | Track Artist |  
+| %comment%| Comment |  
+| %date%| Date |  
+| %discnumber%| Disc Number  |  
+| %dummy%| Ignore Information |  
+| %genre%  | Genre  |  
+| %label%| Producer Label |  
 | %subtitle%| |  
-| %title%|Title |  
-| %track%|Track Number |  
-| %year%|Year (Release) |  
+| %title%| Track Title |  
+| %track%| Track Number |  
+| %year%| Year (Release) |  
 
