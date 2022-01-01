@@ -16,12 +16,20 @@
 - `C:\Program Files (x86)\Mp3tag\export`
 - `C:\Program Files (x86)\Mp3tag\data\sources`
 
-Resources:  
+#### Resources:  
 -	To find more web [sources scripts](https://community.mp3tag.de/c/development/web-sources-scripts/12) for Mp3tag.  
 -	To learn more about how to [use web sources scripts](https://github.com/jonaaa20/itunes-web-sources) in Mp3tag.   
 -	To learn more about the [syntax of these web sources scripts](https://help.mp3tag.de/main_online.html) for Mp3tag.  
 -	To learn more about the [tag fields in Mp3tag](https://help.mp3tag.de/main_tags.html).  
 -	To learn more about the [XID tag field](https://community.mp3tag.de/t/support-for-itunesalbumadvisory-field/51715/10).  
+
+#### Inspirations
+- https://github.com/rarestMeow/mp3tag_actions 
+- https://github.com/seanap/Audible.com-Search-by-Album
+- https://github.com/vibe-x/mp3tag 
+- https://github.com/jerelhenderson/mp3tag_actions 
+- https://github.com/tknr/mp3tag_data_sources
+- https://github.com/Mp3tag/Tidier-Audio-Tag-Naming-Convention/blob/master/Releases/TAT%20Naming%20Convention%201.0.mta
 
 ## MTA: MP3Tag Action File
 
