@@ -3,7 +3,7 @@
 #### Find the Data
 | Contents | Folder |   
 | --- | --- |  
-| Installed Program | `C:\Program Files (x86)\Mp3tag` |  
+| Installed Program | `C:\Program Files (x86)\Mp3tag` <BR> `%mp3tag%` [Portable install] |  
 | Error Log | `%appdata%\Mp3tag\` <BR> `%mp3tag%` [Portable install] |  
 | mta (MP3Tag Action files) | `%appdata%\Mp3tag\export` <BR> `%mp3tag%\export\` [Portable install] |  
 | mte (Export Files) | `%appdata%\mp3tag\data\sources` <BR> `%mp3tag%\Data\Sources` [Portable install] |  
@@ -23,10 +23,26 @@ Resources:
 -	To learn more about the [tag fields in Mp3tag](https://help.mp3tag.de/main_tags.html).  
 -	To learn more about the [XID tag field](https://community.mp3tag.de/t/support-for-itunesalbumadvisory-field/51715/10).  
 
-
 ## MTA: MP3Tag Action File
 
 ## MTE: MP3Tag Export File
 
 ## SRC: MP3Tag Source File
+
+## Tags
+| MP3Tag Element|Description |  
+| --- | --- |  
+| %_directory%|Directory |  
+| %_file_create_datetime_raw%| |  
+| %_parent_directory%|Parent Directory  |  
+| %albumartist%|Album Artist |  
+| %comment%|Comment |  
+| %date%|Date |  
+| %discnumber%|Disc Number  |  
+| %dummy%| |  
+| %label%|Producer Label |  
+| %subtitle%| |  
+| %title%|Title |  
+| %track%|Track Number |  
+| %year%|Year (Release) |  
 
