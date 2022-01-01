@@ -9,7 +9,7 @@ This is a self discovery document as I am reverse engineering what already exist
 | $if((F),(I),' ')| |  
 | $left(\<String>,\<CharCount>)|Cut the left CharCount characters from the string |  
 | $mid(\<String>,\<StartPosition>, \<CharCount>)|Midstring |  
-| $num(%track%,2)| |  
+| $num(\<FieldName>,\<MinimumDigits>)| Causes the number values to be the minimum number of  digits by adding leading zeros for a uniform file name or field look. |  
 | $strchr()| |  
 | $strstr(\<String>,\<TestValue>)|??? |  
 | \$sub($)| |  
