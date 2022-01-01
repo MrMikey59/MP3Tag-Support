@@ -5,7 +5,7 @@ Use the following examples in the Tag-Filename dialog to modify your music file 
     Track Number (2-4 digits), where the first 2 digits are the disc number
     Artist Name (if Various Artists Colletion)
     Song/Track Title
-    All are separted by " - " (spaces & hyphen)
+    All are separated by " - " (spaces & hyphen)
 Like:  
 `10 - Aerosmith - Ragdoll`  
 

@@ -31,6 +31,8 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 
 ### Resources:  
 - [MP3Tag Source](http://www.mp3tag.de/en/), it's support [Community](https://community.mp3tag.de/) and [Change Log](https://www.mp3tag.de/en/changelog.html). And when all else fails get [support](mailto:support@mp3tag.de) by email!
+    - [Export Variables](http://help.mp3tag.de/options_export.html)  
+    - [Scripting Language](http://help.mp3tag.de/main_scripting.html)  
 -	To find more web [sources scripts](https://community.mp3tag.de/c/development/web-sources-scripts/12) for Mp3tag.  
 -	To learn more about how to [use web sources scripts](https://github.com/jonaaa20/itunes-web-sources) in Mp3tag.   
 -	To learn more about the [syntax of these web sources scripts](https://help.mp3tag.de/main_online.html) for Mp3tag.  
@@ -46,7 +48,22 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 - https://github.com/Mp3tag/Tidier-Audio-Tag-Naming-Convention/blob/master/Releases/TAT%20Naming%20Convention%201.0.mta
 - https://github.com/jonaaa20/itunes-web-sources
 
+## Filter Your View List
+You can filter your view within the list using a filter.  Filters use the same functions and expressions used in all scripting within MP3Tag. 
+
+#### Filter for Files with no Cover
+```filter
+%cover% = ""
+```
+
+#### Filter for no Album Artist
+```filter
+%albumartist% = ""
+```
+
 ## MTA: MP3Tag Action File
+Mp3tag provides a variety of actions, which can be applied to filenames and tags. The actions are grouped together into named sets (action groups), which can be applied independently via Actions `Alt+6`. If you do not want to create a reusable action group for applying one single action, the `Actions (Quick)` toolbar button or keyboard shortcut `Shift+Alt+6` can be used.  
+You can create, edit, duplicate, and delete action groups using the buttons on the right or the context menu. The button Utils allows for saving the current selection state to a file using the `Save selection...` menu item. These are then listed in the menu and can be later restored by clicking on the configuration name. The Save menu item saves the current selection state directly (this is only necessary if you choose to not exit the dialog via the OK button).  
 
 #### Adding New Sources
 1.	Download or Create a Action File
