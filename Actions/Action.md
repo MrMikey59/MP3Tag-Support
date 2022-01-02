@@ -18,12 +18,14 @@ Use comments to documwent your action. Add comments in the file script using the
 ```
 
 ### Add Spaces Around Dashes
-This action adds spaces around the dashes in the File Name and then eliminate extra spaces when necessary.  
-Here's how it looks when creating: ![Create an Action](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Create%20Action.JPG)
+This action adds spaces around the dashes in the File Name and then eliminate extra spaces when necessary.   
+Here's how it looks when creating:   
+![Create an Action](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Create%20Action.JPG)
 
 And how the code looks in the file:  
 ```mta
 [#0]
+! Add spaces around all dashes.
 T=2
 F=_FILENAME
 1=-
@@ -31,6 +33,7 @@ F=_FILENAME
 3=0|0
 
 [#1]
+! Remove extra spaces.
 T=2
 F=_FILENAME
 1=  
@@ -48,7 +51,7 @@ MP3TAG community to format, fix and standardize spellings and grammatical issues
   - naming and grammatical style corrections not included in Grammartron's 3 Smart Case and Grammar Restorers.
 
 ### Remove Double Spaces
-This is my first Action Creation. Use it to remove extra spaces in all tags.
+This is my first Action Creation. Use it to remove extra spaces in all tags. This may need to run more than once to clear all extra spaces!
 
 ### Track counters
 - Track Counter #1 - Track Number.mta  
