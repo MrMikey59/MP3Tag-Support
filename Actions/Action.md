@@ -4,19 +4,20 @@ Some **Actions** are numbered in accordance to the tags they affect. Changing ei
 
 **Note** When adding new actions, restarting MP3Tag is not necessay!
 
+#### Add Order to the Action Menu
+You can make **Menu Breakouts** by catagory using the # symbol in the names.  
+For example, the following file name creates a double breakout menu with **Grammatron** and the **Smart Case and Grammar Restorer** before the action is available to click:
+```
+Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
+```
+Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)  
+
 ### Grammartron
 [Grammartron](https://community.mp3tag.de/t/case-conversion/11684) is a comprehensive, collective effort among the
 MP3TAG community to format, fix and standardize spellings and grammatical issues in music tags.  
 - 01 Grammartron - Smart Case and Grammar Restorer #1 - Tags.mta  
 - 01 Grammartron - Smart Case and Grammar Restorer #2 - Filenames.mta  
 - 01 Grammartron - Smart Case and Grammar Restorer #3 - Parent Directory.mta  
-
-You can make **Menu Breakouts** by catagory using the # symbol in the names.  
-For example, the following file name creates a double breakout menu with **Grammatron** and the **Smart Case and Grammar Restorer** before the action is available to click:
-```
-Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
-```
-Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)
 
 ### Track counters
 - Track Counter #1 - Track Number.mta  
