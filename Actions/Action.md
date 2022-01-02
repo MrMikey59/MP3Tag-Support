@@ -12,9 +12,31 @@ Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
 ```
 Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)  
 
+Use comments to documwent your action. Add comments in the file script using the !.
+```mta
+! This is my comment.
+```
+
 ### Add Spaces Around Dashes
-This action adds spaces around the dashes and then eliminates extra spaces when necessary.
+This action adds spaces around the dashes in the File Name and then eliminate extra spaces when necessary.  
 Here's how it looks when creating: ![Create an Action](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Create%20Action.JPG)
+
+And how the code looks in the file:  
+```mta
+[#0]
+T=2
+F=_FILENAME
+1=-
+2= - 
+3=0|0
+
+[#1]
+T=2
+F=_FILENAME
+1=  
+2= 
+3=0|0
+```
 
 ### Grammar
 [Grammar](https://community.mp3tag.de/t/case-conversion/11684) is a comprehensive, collective effort among the
