@@ -4,29 +4,17 @@ text eol=crlf
 * text=auto
 
 # Denote all files that are truly binary and should not be modified.
-*.png binary
-*.jpg binary
-*.zip binary
-
-# Standard Text Files
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.gif  binary
+*.jpg  binary
+*.png  binary
 
 # MP3Tag Text Files
 *.inc	 diff=astextplain
 *.INC	 diff=astextplain
 *.ini	 diff=astextplain
 *.INI	 diff=astextplain
-*.mta diff=astextplain
-*.MTA diff=astextplain
+*.mta  diff=astextplain
+*.MTA  diff=astextplain
 *.mte  diff=astextplain
 *.MTE  diff=astextplain
 *.src  diff=astextplain
