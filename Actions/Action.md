@@ -65,3 +65,14 @@ This is my first Action Creation. Use it to remove extra spaces in all tags. Thi
 - Track Counter #5 - Vinyl (Numbers).mta 
 	- set DISCSUBTITLE to "Side 1... Side 2..."  
 
+For Track Number Reverse Engineering, go to Actions, Select Track Update and Edit. Here's the process:  
+![Track Update Script](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Track%20Number.JPG)
+
+and the file:
+```mta
+[#0]
+T=5
+1=$num($add(%_counter%,),2)
+F=TRACK
+```
+
