@@ -1,5 +1,7 @@
 # This is my MP3Tag Support Project
 
+An action is the feature of Mp3Tag allows to edit tags in automatic (pre-programmed) way.  
+
 Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments of MP3- and Ogg Vorbis files. It can rename files based on the tag information, replace characters or words from tags and filenames, import/export tag information, create playlists and more. The program supports online freedb database lookups for selected files, allowing you to automatically gather proper tag information. 
 
 **Note**: The *.mta, *.mte & *.src files are plain text files with a certain syntax, just like other programming formats.
@@ -52,7 +54,9 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 ### Other Links:  
 - [MusicBee](https://getmusicbee.com/)
 - [MusicBrainz Style Guidelines](https://musicbrainz.org/doc/Style)
-- [RegEx: Regular Expressions](https://regexone.com/) 
+- RegEx: Regular Expressions  
+  - [RegEx on Wikipedia](https://en.wikipedia.org/wiki/Regular_expression) 
+  - [RegExOne](https://regexone.com/) 
 
 ## Filter Your View List
 You can filter your view within the list using a filter.  Filters use the same functions and expressions used in all scripting within MP3Tag. 

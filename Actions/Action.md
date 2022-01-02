@@ -11,13 +11,22 @@ For example, the following file name creates a double breakout menu with **Gramm
 Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
 ```
 Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)  
+Here's how it looks when creating: ![]
 
-### Grammartron
-[Grammartron](https://community.mp3tag.de/t/case-conversion/11684) is a comprehensive, collective effort among the
+### Add Spaces Around Dashes
+This action adds spaces around the dashes and then eliminates extra spaces when necessary.
+
+### Grammar
+[Grammar](https://community.mp3tag.de/t/case-conversion/11684) is a comprehensive, collective effort among the
 MP3TAG community to format, fix and standardize spellings and grammatical issues in music tags.  
-- 01 Grammartron - Smart Case and Grammar Restorer #1 - Tags.mta  
-- 01 Grammartron - Smart Case and Grammar Restorer #2 - Filenames.mta  
-- 01 Grammartron - Smart Case and Grammar Restorer #3 - Parent Directory.mta  
+- Grammar#Smart Case and Grammar Restorer #1 - Tags.mta  
+- Grammar#Smart Case and Grammar Restorer #2 - Filenames.mta  
+- Grammar#Smart Case and Grammar Restorer #3 - Parent Directory.mta  
+- Grammar#Xtra Naming and Style Corrections.mta  
+  - naming and grammatical style corrections not included in Grammartron's 3 Smart Case and Grammar Restorers.
+
+### Remove Double Spaces
+This is my first Action Creation. Use it to remove extra spaces in all tags.
 
 ### Track counters
 - Track Counter #1 - Track Number.mta  
