@@ -53,6 +53,20 @@ MP3TAG community to format, fix and standardize spellings and grammatical issues
 ### Remove Double Spaces
 This is my first Action Creation. Use it to remove extra spaces in all tags. This may need to run more than once to clear all extra spaces!
 
+### Standard (Included in MP3Tag)
+This action standardizes all tags replacing:
+- %20 with space  
+- Underscore with space
+- and a few corrections for `DJ`, `Feat`, `MC` & `vs`.
+```
+Replace "_ALL": "%20" -> " "
+Replace "_ALL": "_" -> " "
+Replace "_ALL": "Dj" -> "DJ"
+Replace "_ALL": "Feat" -> "feat" 
+Replace "_ALL": "Mc" -> "MC" 
+Replace "_ALL": "Vs" "vs" 
+```
+
 ### Track counters
 - Track Counter #1 - Track Number.mta  
   - prepend incrementing track numbers to total file number
