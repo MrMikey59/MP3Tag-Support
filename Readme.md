@@ -18,9 +18,9 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 | --- | --- |  
 | Installed Program | `C:\Program Files (x86)\Mp3tag` <BR> `%mp3tag%` [Portable install] |  
 | Error Log | `%appdata%\Mp3tag\` <BR> `%mp3tag%` [Portable install] |  
-| mta (MP3Tag Action files) | `%appdata%\Mp3tag\export` <BR> `%mp3tag%\export\` [Portable install] |  
-| mte (Export Files) | `%appdata%\mp3tag\data\sources` <BR> `%mp3tag%\Data\Sources` [Portable install] |  
-| src (Source Files) <br> inc (Include Files) | `%appdata%\mp3tag\data\actions` <BR> `%mp3tag%\Data\Actions`  [Portable install] |  
+| mta (MP3Tag Action files) | `%appdata%\Mp3tag\data\actions` <BR> `%mp3tag%\actions\` [Portable install] |  
+| mte (Export Files) | `%appdata%\mp3tag\exports` <BR> `%mp3tag%\Data\exports` [Portable install] |  
+| src (Source Files) <br> inc (Include Files) | `%appdata%\mp3tag\data\sources` <BR> `%mp3tag%\data\sources`  [Portable install] |  
 
 **Note**: %appdata% = “C:\Users\ %username% \AppData\Roaming\”
 
@@ -31,6 +31,7 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 
 ### Resources:  
 - [MP3Tag Source](http://www.mp3tag.de/en/), it's support [Community](https://community.mp3tag.de/) and [Change Log](https://www.mp3tag.de/en/changelog.html). And when all else fails get [support](mailto:support@mp3tag.de) by email!
+    - [Actions](https://help.mp3tag.de/options_format.html)
     - [Export Variables](http://help.mp3tag.de/options_export.html)  
     - [Scripting Language](http://help.mp3tag.de/main_scripting.html)  
 -	To find more web [sources scripts](https://community.mp3tag.de/c/development/web-sources-scripts/12) for Mp3tag.  
@@ -47,6 +48,11 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 - https://github.com/tknr/mp3tag_data_sources
 - https://github.com/Mp3tag/Tidier-Audio-Tag-Naming-Convention/blob/master/Releases/TAT%20Naming%20Convention%201.0.mta
 - https://github.com/jonaaa20/itunes-web-sources
+
+### Other Links:  
+- [MusicBee](https://getmusicbee.com/)
+- [MusicBrainz Style Guidelines](https://musicbrainz.org/doc/Style)
+- [RegEx: Regular Expressions](https://regexone.com/) 
 
 ## Filter Your View List
 You can filter your view within the list using a filter.  Filters use the same functions and expressions used in all scripting within MP3Tag. 
