@@ -11,10 +11,10 @@ For example, the following file name creates a double breakout menu with **Gramm
 Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
 ```
 Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)  
-Here's how it looks when creating: ![]
 
 ### Add Spaces Around Dashes
 This action adds spaces around the dashes and then eliminates extra spaces when necessary.
+Here's how it looks when creating: ![Create an Action](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Create%20Action.JPG)
 
 ### Grammar
 [Grammar](https://community.mp3tag.de/t/case-conversion/11684) is a comprehensive, collective effort among the
