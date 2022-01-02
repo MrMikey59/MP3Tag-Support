@@ -18,7 +18,7 @@ Grammartron#Smart Case and Grammar Restorer #1 - Tags.mta
 ```
 Action Menu Breakout: ![Action Menu Breakout](https://github.com/MrMikey59/MP3Tag-Support/blob/master/Actions/Actions%20Menu%20Breakout.JPG)
 
-### ### Track counters
+### Track counters
 - Track Counter #1 - Track Number.mta  
   - prepend incrementing track numbers to total file number
 - Track Counter #2 - Track Total.mta  
