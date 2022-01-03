@@ -1,0 +1,28 @@
+﻿[#0]
+T=4
+F=ARTIST
+1=The (.*)
+2=$1, The
+3=0
+
+[#1]
+T=4
+F=ARTISTSORT
+1=The (.*)
+2=$1, The
+3=0
+
+[#2]
+T=4
+F=ALBUMARTIST
+1=The (.*)
+2=$1, The
+3=0
+
+[#3]
+T=4
+F=ALBUMARTISTSORT
+1=The (.*)
+2=$1, The
+3=0
+
