@@ -17,6 +17,11 @@ Use comments to documwent your action. Add comments in the file script using the
 ! This is my comment.
 ```
 
+#### Add Keyboard Short cuts to Actions
+You can use the keyboard shortcut to trigger the action group menu `Alt+A` in combination with another character from the action group name. Simply decide on the character and prefix it with &. You can then use Alt+A and the character to trigger the action group.
+
+An example action group `&Uppercase` can be triggered by `Alt+A` plus `U`.
+
 ### Add Spaces Around Dashes
 This action adds spaces around the dashes in the File Name and then eliminate extra spaces when necessary.   
 Here's how it looks when creating:   
