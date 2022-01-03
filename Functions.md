@@ -2,6 +2,7 @@
 
 This is a self discovery document as I am reverse engineering what already exists rater than look at the MP3Tag documents - **use at your on risk**. Feel free to comment where problems are noted.
 
+## Built In Function
 | Function|Description |  
 | --- | --- |
 | $add()| |  
@@ -14,4 +15,10 @@ This is a self discovery document as I am reverse engineering what already exist
 | $strstr(\<String>,\<TestValue>)|??? |  
 | \$sub($)| |  
 | &|Concatenate |  
+
+## Prepared Functions
+
+| Action | Function |  
+| --- | --- |  
+| Remove trailing spaces in File Name | $trim(%_filename%) |  
 

@@ -35,6 +35,7 @@ Mp3tag is a powerful and yet easy-to-use tool to edit ID3-tags and OGG Comments 
 - [MP3Tag Source](http://www.mp3tag.de/en/), it's support [Community](https://community.mp3tag.de/) and [Change Log](https://www.mp3tag.de/en/changelog.html). And when all else fails get [support](mailto:support@mp3tag.de) by email!
     - [Actions](https://help.mp3tag.de/options_format.html)
     - [Export Variables](http://help.mp3tag.de/options_export.html)  
+    - [Filter Expressions](https://community.mp3tag.de/t/filter-expressions/10080)  
     - [Scripting Language](http://help.mp3tag.de/main_scripting.html)  
 -	To find more web [sources scripts](https://community.mp3tag.de/c/development/web-sources-scripts/12) for Mp3tag.  
 -	To learn more about how to [use web sources scripts](https://github.com/jonaaa20/itunes-web-sources) in Mp3tag.   
